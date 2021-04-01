@@ -83,11 +83,6 @@ data:
       ./start-yarn-nm.sh
     fi
     
-    # spark构建
-    curl -O https://mirror-hk.koddos.net/apache/spark/spark-3.1.1/spark-3.1.1-bin-hadoop2.7.tgz
-    tar -zvxf spark-3.1.1-bin-hadoop2.7.tgz 
-    echo "YARN_CONF_DIR=${HADOOP_PREFIX}/etc/hadoop" > spark-3.1.1-bin-hadoop2.7/conf/spark-env.sh
-    mv spark-3.1.1-bin-hadoop2.7 /usr/local
 
     if [[ $1 == "-d" ]]; then
       until find ${HADOOP_PREFIX}/logs -mmin -1 | egrep -q '.*'; echo "`date`: Waiting for logs..." ; do sleep 2 ; done
