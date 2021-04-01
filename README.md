@@ -1,4 +1,4 @@
-# Hadoop Chart
+# Hadoop Charts
 
 [Hadoop](https://hadoop.apache.org/) is a framework for running large scale distributed applications.
 
