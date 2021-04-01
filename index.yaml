@@ -3,9 +3,9 @@ entries:
   hadoop:
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2021-03-31T19:53:25.561642628+08:00"
+    created: "2021-03-31T20:38:22.093796324+08:00"
     description: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
-    digest: f44c0779866fda2655f6364dba8364911911742b019161b86d8d834c4a6d475e
+    digest: 16faea049c7c614722ab3d34a85dfa4f7d37a0d932dc512265a2302b2866957a
     home: https://hadoop.apache.org/
     icon: http://hadoop.apache.org/images/hadoop-logo.jpg
     maintainers:
@@ -17,4 +17,4 @@ entries:
     urls:
     - https://wuyuz.github.io/hdfs-ee/hadoop-1.1.2.tgz
     version: 1.1.2
-generated: "2021-03-31T19:53:25.559137987+08:00"
+generated: "2021-03-31T20:38:22.09185786+08:00"
